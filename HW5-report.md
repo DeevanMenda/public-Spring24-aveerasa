@@ -42,16 +42,15 @@ This Python code utilizes pandas, seaborn, and matplotlib libraries to create a 
 
 ### Observations
 
-When compared to 3 years that we have taken there is a noticeable shift towards higher population densities
+The Single-family Housing Price Indexes for all states are compared across the years 1995, 2000, and 2008. Among these years, 2008 emerges as the year with the highest housing price indexes for most states. This suggests a notable upward trend in housing prices over the selected timeframe. Conversely, 1995 generally exhibits lower housing price indexes compared to the other two years, indicating a potential period of lower housing market activity or less robust economic conditions. The comparison highlights the dynamic nature of the housing market and the significant fluctuations in housing prices over time, influenced by various economic and social factors.
 
-The distribution of population density in 2000 seems to have a higher interquartile range compared to 1990 and 2008.
+### Idiom: Box plot / Mark: Bar
+| Data: Attribute | Data: Attribute Type | Encode: Channel |
+| --- | --- | --- |
+| Year | value, Ordinal | (x-axis) |
+| Price Index | value, Quantitative | (y-axis) |
 
-
- ### Idiom: Box plot / Mark: Bar
-| Data: Attribute | Data: Attribute Type  | Encode: Channel | 
-| --- |---| --- |
-| Years | value, Ordinal | (x-axis) |
-| Population per square mile of land area | value, Quantitative | (y-axis) |
+This idiom table describes the box plot visualization used in the provided code. The x-axis represents the years (1995, 2000, and 2008), which are treated as ordinal values. The y-axis indicates the Single-family Housing Price Index, which is a quantitative value. The box plot is chosen as the idiom for visualization, presenting the distribution of the price index across different years.
 
 <br/><br/>
 
