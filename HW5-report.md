@@ -13,8 +13,9 @@ Due: March 30,2024
 
 ### Data 
 
-For my homework assignment, I selected Dataset-13 which contains information on State Population--Rank, Percent Change, And Population Density. To address the first question, which asks for the population distributions of all states in 1990, 2000 (either April or July), and 2008, I refined the dataset by keeping only the relevant years and columns: States, 1990, 2000, and 2008. This focused the dataset for clear analysis.
-For the second question, which requests the distribution of state populations for a single year, I kept only the data for that specific year and removed information for other years. This process involved modifying the original Excel file and converting it into a CSV format for ease of use. Both the original Excel file and the edited CSV files are provided in the repository.
+For my homework assignment, I chose Dataset-14, which presents Single-Family Housing Price Indexes by State spanning from 1990 to 2008. Each row corresponds to a different state, and each column represents a specific year, detailing the housing price index for that state in that particular year. To tackle the first question, which seeks the housing price indexes for all states in 1995, 2000, and 2008, I refined the dataset by selecting only the relevant years and columns: States, along with data for 1995, 2000, and 2008. This focused approach streamlined the dataset for clearer analysis.
+
+For the second question, which inquires about the housing price indexes for all states in a specific year, I streamlined the dataset further by retaining only the data for that particular year and discarding information for other years. This involved modifying the original Excel file and converting it into a CSV format for easier handling. Both the original Excel file and the edited CSV files are provided in the repository for reference.
 
  <br/><br/>
 ###  Q1. boxplot: Show the distributions of the population density (Population per square mile of land area) in 1990, 2000, and 2008
