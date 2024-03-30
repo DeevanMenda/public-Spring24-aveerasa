@@ -18,16 +18,10 @@ For my homework assignment, I chose Dataset-14, which presents Single-Family Hou
 For the second question, which inquires about the housing price indexes for all states in a specific year, I streamlined the dataset further by retaining only the data for that particular year and discarding information for other years. This involved modifying the original Excel file and converting it into a CSV format for easier handling. Both the original Excel file and the edited CSV files are provided in the repository for reference.
 
  <br/><br/>
-###  Q1. boxplot: Show the distributions of the population density (Population per square mile of land area) in 1990, 2000, and 2008
-
+###  Q1.boxplot: Show the Single-famiy housing price indexes of all states in 1995, 2000, and 2008
 *Boxplot:*
 
-![HW5 Boxplot](https://github.com/odu-cs625-datavis/fall23-mcw-mosesrathan19/assets/144186545/e283b8c4-b33f-4ba3-b031-a2e15988b81d)
-
-The output image is a boxplot that shows the distribution of population density across three years (1990, 2000, and 2008). The plot's boxes show the distribution of population density values for each year. The middle line within each box represents the population density's median value, while the box's borders indicate the range within the interquartile range. 
-
-Boxplots are excellent for visually understandingof the data for different years. Boxplots are excellent for comparing multiple distributions at the same time. In this scenario, it compares the population density distributions for each year accurately. There are some disadvantages with the boxplot as they don't show the exact shape or frequency of the distribution. For the given data and our requirment boxplot is the best way to show the data visually.
-
+For the analysis of Single-Family Housing Price Indexes across various states, the focus was placed on three pivotal years: 1995, 2000, and 2008. By isolating data from these specific years, the dataset was refined to include only the relevant information needed to assess the housing market's performance over time. This approach allowed for a comprehensive examination of how housing prices fluctuated across different states during these critical years, providing insights into regional variations and trends in the housing market. Through careful consideration of the Single-Family Housing Price Indexes for each state in 1995, 2000, and 2008, a nuanced understanding of the housing market dynamics during these pivotal periods was achieved.
 
  [Google Colab Code Link for the Boxplot](https://colab.research.google.com/drive/1Fo4gb17AO6q44SbJx8TRf8j7To5xGH6N?usp=sharing)
 
