@@ -25,13 +25,19 @@ For the analysis of Single-Family Housing Price Indexes across various states, t
 
  ### [Colab Code Link](https://colab.research.google.com/drive/10k3GEM00gZg8z4YcZgXtHXy9gC9IdZdF?usp=sharing)
 
-Code Explination: For easy understanding i have uploaded the edited dataset into the google colab drive and used it in my code to execute the required charts according to the questions given. Using pandas, matplotlib, python i have written a code to create a box plot for Population Density Distribution in the years 1990, 2000 and 2008.The x-axis represents the years 1990, 2000 and 2008 and the y-axis indicates the population per square mile of land area.
+### Code Explination: 
 
-    melted_data = pd.melt(data, id_vars=['STATES'], var_name='Year', value_name='Population')
+This Python code utilizes pandas, seaborn, and matplotlib libraries to create a boxplot visualization of Single-family Housing Price Indexes for the years 1995, 2000, and 2008 across various states.
 
-    plt.figure(figsize=(12, 6)) 
+* The dataset is melted using pd.melt() function to reshape it into a format suitable for visualization, with State as the identifier variable and Year as the variable to be split.
 
-    sns.boxplot(x='Year', y='Population', data=melted_data,palette='pastel')
+* A boxplot is generated using seaborn's boxplot() function, with the x-axis representing the years and the y-axis representing the housing price index.
+
+* The palette parameter in the boxplot function specifies the color scheme for the plot.
+
+* Additional plot elements such as title, x-axis label ('Year'), and y-axis label ('Price Index') are added for clarity.
+
+* Finally, plt.show() displays the plot.
 
 
 ### Observations
