@@ -21,6 +21,10 @@ For the second question, which inquires about the housing price indexes for all 
 ###  Q1.boxplot: Show the Single-famiy housing price indexes of all states in 1995, 2000, and 2008
 *Boxplot:*
 
+![download](https://github.com/DeevanMenda/public-Spring24-aveerasa/assets/156245935/9ea402d1-3432-46bf-83d9-47ba795f8e0b)
+
+
+
 For the analysis of Single-Family Housing Price Indexes across various states, the focus was placed on three pivotal years: 1995, 2000, and 2008. By isolating data from these specific years, the dataset was refined to include only the relevant information needed to assess the housing market's performance over time. This approach allowed for a comprehensive examination of how housing prices fluctuated across different states during these critical years, providing insights into regional variations and trends in the housing market. Through careful consideration of the Single-Family Housing Price Indexes for each state in 1995, 2000, and 2008, a nuanced understanding of the housing market dynamics during these pivotal periods was achieved.
 
  ### [Colab Code Link](https://colab.research.google.com/drive/10k3GEM00gZg8z4YcZgXtHXy9gC9IdZdF?usp=sharing)
