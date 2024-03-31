@@ -54,7 +54,7 @@ The Single-family Housing Price Indexes for all states are compared across the y
 | Year | value, Ordinal | (x-axis) |
 | Price Index | value, Quantitative | (y-axis) |
 
-This idiom table describes the box plot visualization used in the provided code. The x-axis represents the years (1995, 2000, and 2008), which are treated as ordinal values. The y-axis indicates the Single-family Housing Price Index, which is a quantitative value. The box plot is chosen as the idiom for visualization, presenting the distribution of the price index across different years.
+ The x-axis represents the years (1995, 2000, and 2008), which are treated as ordinal values. The y-axis indicates the Single-family Housing Price Index, which is a quantitative value. The box plot is chosen as the idiom for visualization, presenting the distribution of the price index across different years.
 
 <br/><br/>
 
@@ -105,27 +105,29 @@ Single-family Housing Price Indexes for all states in the year 2002. Upon examin
 
 This idiom table describes the Empirical Cumulative Distribution Function (eCDF) visualization used in the provided code. The eCDF is represented by a line plot, where the x-axis represents the Housing Price Index (quantitative value) and the y-axis represents the Cumulative Probability (quantitative value). The line plot displays the eCDF for the year 2002, serving as a hue to distinguish between different temporal observations.
 
-*Histogram:*
-
-![HW5 Histogram](https://github.com/odu-cs625-datavis/fall23-mcw-mosesrathan19/assets/144186545/29122c8a-94ce-44b5-920d-d3e05f9648c8)
+### *Histogram:*
 
 
-THis histogram chart represents the distribution of population density in the year 1970. The x-axis represents the population density, and the y-axis shows the frequency. The Histogram helps to visualize the spread and frequency of population density values, showing the range and distribution pattern across the dataset for the year 1970.
-
-Histogram is great for displaying the distribution of a continuous variable, showing the frequency or density of data points within certain ranges or bins. It is easily understandable to identify the frequency distributions and patterns. The only disadvantage with this is the choice of bin size can affect the appearance and understanding of the distribution. Fine details may be lost with certain bin sizes.
+![download-2](https://github.com/DeevanMenda/public-Spring24-aveerasa/assets/156245935/78483df0-e73e-40b5-a144-564409ae752b)
 
 
- [Google Colab Code Link for the Histogram](https://colab.research.google.com/drive/1Fo4gb17AO6q44SbJx8TRf8j7To5xGH6N?usp=sharing)
+This picture represents the creation of a histogram to visualize the distribution of Single-family Housing Price Indexes for the year 2002.Subsequently, a histogram is created using matplotlib, where the x-axis represents the Housing Price Index and the y-axis represents the frequency or count of occurrences.The resulting histogram provides insights into the distribution of housing price indexes in 2002, showing the frequency of different price index ranges.
 
-### Code snippet
+### [Google Colab Code Link](https://colab.research.google.com/drive/10k3GEM00gZg8z4YcZgXtHXy9gC9IdZdF?usp=sharing)
 
-    plt.figure(figsize=(10, 6))
-    plt.hist(df['1970'], bins=10, color='skyblue')  
-    plt.title('Population Density Distribution in 1970')
-    plt.xlabel('Population Density')
-    plt.ylabel('Frequency')
-    plt.grid(axis='y')
-    plt.show()
+### Code Explanation
+
+* Import the necessary libraries: pandas for data manipulation and matplotlib.pyplot for plotting.
+* Create a DataFrame from the provided data stored in an Excel file named 'deevan-2.xlsx' using the pd.read_excel() function.
+* Extract the housing price indexes for the year 2002 from the DataFrame.
+* Plot a histogram of the housing price indexes for the year 2002 using the plt.hist() function. Adjust the bin size as needed using the bins parameter. The histogram is plotted with 15 bins, represented by bars colored sky blue with black edges.
+* Add a title to the plot using plt.title() to indicate that it shows the histogram of Single-family Housing Price Indexes in 2002.
+* Label the x-axis as 'Housing Price Index' using plt.xlabel().
+* Label the y-axis as 'Frequency' using plt.ylabel().
+* Display grid lines on the plot using plt.grid(True).
+* Finally, display the plot using plt.show().
+** the code creates a histogram to visualize the distribution of Single-family Housing Price Indexes for the year 2002. The histogram provides insights into the frequency distribution of housing price indexes, helping to understand the overall distribution pattern and central tendency of the data.
+
 
 ### Observations
 
