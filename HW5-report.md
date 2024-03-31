@@ -131,16 +131,13 @@ This picture represents the creation of a histogram to visualize the distributio
 
 ### Observations
 
-The histogram shows that a significant number of states had lower population densities in 1970.
+ A histogram to visualize the distribution of Single-family Housing Price Indexes specifically for the year 2002. With a histogram, it becomes possible to understand the frequency distribution of housing price indexes, shedding light on their central tendency and variability. By adjusting the bin size, the histogram effectively partitions the range of housing price indexes into 15 intervals, providing a clear representation of how frequently values fall within each interval. The histogram's title and axis labels offer clarity regarding what the plot represents, facilitating interpretation. Additionally, the inclusion of grid lines aids in visual alignment and assessment of the distribution's characteristics. Overall, the histogram serves as a valuable tool for exploring and analyzing the distribution of Single-family Housing Price Indexes for the year 2002.
 
-There are a only few states with very high population densities.
-
- ### Idiom: Histogram / Mark: Bar 
-| Data: Attribute | Data: Attribute Type  | Encode: Channel | 
-| --- |---| --- |
-| Population Density | value, Quantitative | (x-axis) |
+### Idiom: Histogram / Mark: Bar
+| Data: Attribute | Data: Attribute Type | Encode: Channel |
+| --- | --- | --- |
+| Housing Price Index | value, Quantitative | (x-axis) |
 | Frequency | value, Quantitative | (y-axis) |
-
 <br/><br/>
 
 ## Part 2:  Further Analysis
