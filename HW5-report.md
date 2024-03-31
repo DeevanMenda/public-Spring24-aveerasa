@@ -143,31 +143,55 @@ This picture represents the creation of a histogram to visualize the distributio
 ## Part 2:  Further Analysis
 
 
-*1. Identification of states with the highest to lowest population densities across the years 1980, 2000, and 2008.*
-
-Through box plots for each year, it becomes evident which states consistently maintain the highest and lowest population densities over time. The consistent upper states in box plots in histograms can reveal the states with the highest population densities. Similarly, the lower states in histograms can uncover the states with the lowest population densities. Through box plots for each year, it becomes evident which states consistently maintain the highest and lowest population densities over time. The consistent upper states in box plots in histograms can reveal the states with the highest population densities. Similarly, the lower states in histograms can uncover the states with the lowest population densities. 
+### 1. Average Annual Growth Rate for Each State 1990-2008
 
 *Bar Chart:*
 
- ### Idiom: Bar chart / Mark: Bar 
-| Data: Attribute | Data: Attribute Type  | Encode: Channel | 
-| --- |---| --- |
-| Population Density | value, Quantitative | (x-axis) |
-| States | value, Quantitative | (y-axis) |
 
-<br/><br/>
+![download-3](https://github.com/DeevanMenda/public-Spring24-aveerasa/assets/156245935/4f0e7525-53ca-4333-8083-cd6bae9516c4)
 
-![Bar Chart HW5](https://github.com/odu-cs625-datavis/fall23-mcw-mosesrathan19/assets/144186545/b6c39190-db58-4e2f-a03a-ef08b4200079)
 
-[Google colab link for Bar Chart](https://colab.research.google.com/drive/1Fo4gb17AO6q44SbJx8TRf8j7To5xGH6N?usp=sharing)
 
-<br/><br/>
+It calculates the average annual growth rate of population for each state over the years 1990 to 2008. It loads the population data from an Excel file into a pandas DataFrame. Then, it iterates over each state, calculates the growth rate using the population values from the first and last years, and stores the results in a dictionary. After that, it converts the dictionary into a DataFrame. Finally, it creates a horizontal bar plot where each bar represents the average growth rate of a state, allowing for easy visual comparison of population growth rates across different states.
 
-*2. Population Density Growth Over Time:*
+### [Google Colab Code Link](https://colab.research.google.com/drive/10k3GEM00gZg8z4YcZgXtHXy9gC9IdZdF?usp=sharing)
 
-Observing the general trend of population density increases from 1980 to 2008 across different states. The line chart illustrates the population density growth over time for five states—California, Texas, New York, Florida, and Illinois from 1990 to 2008.Each line in the chart represents one state and its raise and fall. Population density in states such as California and New York has steadily increased over the years, with New York going through a significant increase between 1990 and 2000. Texas and Florida also show consistent growth, while Illinois has a comparatively stable population density over the years.
+### Code Explanation
 
-*Line Chart:*
+
+This Python code reads population data from an Excel file, calculates the average annual growth rate for each state between the years 1990 and 2008, and then visualizes the results using a horizontal bar plot.
+
+* The population data is loaded into a DataFrame named df using Pandas.
+* The code iterates over each state in the DataFrame and calculates the average annual growth rate using the population values for each state from 1990 to 2008.
+* The calculated growth rates are stored in a dictionary called growth_rates, where the keys are state names and the values are their respective average growth rates.
+* The dictionary is converted into a DataFrame named growth_rates_df.
+* Finally, a horizontal bar plot is created using Matplotlib, where each bar represents the average growth rate of a state. The x-axis represents the average growth rate, and the y- 
+  axis represents the states.
+* The resulting plot provides a visual comparison of the average annual growth rates for each state over the specified period.
+
+  
+### Observations
+
+The provided code calculates the average annual growth rate for each state based on population data from 1990 to 2008 and visualizes it using a horizontal bar chart. This visualization offers a comparative overview of the growth rates across different states, indicating their population dynamics over the specified period. By analyzing the chart, one can discern variations in growth rates among states, identifying regions with higher or lower population growth trends.
+
+
+### Idiom: Bar / Mark: Bar
+| Data: Attribute | Data: Attribute Type | Encode: Channel |
+| --- | --- | --- |
+| State | Categorical | (y-axis) |
+| Average Growth Rate | Quantitative | (x-axis) |
+
+This code generates a horizontal bar chart to illustrate the average annual growth rate for each state from 1990 to 2008. Each bar in the chart represents a state, and its length corresponds to the average growth rate. The x-axis represents the average growth rate, while the y-axis displays the states. This visualization facilitates a comparative analysis of the growth rates across different states over the specified period.
+
+### 2. Distribution of Single-family Housing Price Growth Rates (1995 to 2008)
+
+*histogram:*
+
+![download-4](https://github.com/DeevanMenda/public-Spring24-aveerasa/assets/156245935/c53160f8-a3a9-4872-80b8-a07b6bd96124)
+
+
+
+This code snippet utilizes the pandas, matplotlib, and seaborn libraries to analyze the distribution of average growth rates of single-family housing prices across different states from 1990 to 2008. Initially, the population data is loaded from an Excel file. Subsequently, the average annual growth rate for each state is calculated based on the provided data. The seaborn library's histplot function is then employed to create a histogram, representing the distribution of average growth rates. The x-axis displays the growth rates in percentage, while the y-axis indicates the frequency of occurrence. This visualization allows for an understanding of the distribution pattern of housing price growth rates across states over the specified period
 
 
  ### Idiom: Line chart / Mark: Line 
