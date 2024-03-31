@@ -224,5 +224,12 @@ The provided code calculates the average annual growth rate for each state based
 
 
 - [stackoverflow](https://stackoverflow.com/)
+  
 - [oreilly textbook](https://data.vk.edu.ee/PowerBI/Opikud/Fundamentals_of_Data_Visualization.pdf)
+  
 - [quora](https://www.quora.com/)
+- [Box plot](https://en.wikipedia.org/wiki/Box_plot)
+  
+- [eCDF](https://en.wikipedia.org/wiki/Empirical_distribution_function)
+- [Histogram](https://en.wikipedia.org/wiki/Histogram)
+  
