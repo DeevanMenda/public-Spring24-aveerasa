@@ -193,22 +193,32 @@ This code generates a horizontal bar chart to illustrate the average annual grow
 
 This code snippet utilizes the pandas, matplotlib, and seaborn libraries to analyze the distribution of average growth rates of single-family housing prices across different states from 1990 to 2008. Initially, the population data is loaded from an Excel file. Subsequently, the average annual growth rate for each state is calculated based on the provided data. The seaborn library's histplot function is then employed to create a histogram, representing the distribution of average growth rates. The x-axis displays the growth rates in percentage, while the y-axis indicates the frequency of occurrence. This visualization allows for an understanding of the distribution pattern of housing price growth rates across states over the specified period
 
-
- ### Idiom: Line chart / Mark: Line 
-| Data: Attribute | Data: Attribute Type  | Encode: Channel | 
-| --- |---| --- |
-| Years | value, Ordinal | (x-axis) |
-| Population Density | value, Quantitative | (y-axis) |
-| States | Key, Categorical | (Hue) |
-
-<br/><br/>
-
-![HW5 Line Chart](https://github.com/odu-cs625-datavis/fall23-mcw-mosesrathan19/assets/144186545/f801e5d4-f555-4691-abbd-fbd4c3f8cc97)
+### [Google Colab Code Link](https://colab.research.google.com/drive/10k3GEM00gZg8z4YcZgXtHXy9gC9IdZdF?usp=sharing)
 
 
-[Google colab link for Line Chart](https://colab.research.google.com/drive/1Fo4gb17AO6q44SbJx8TRf8j7To5xGH6N?usp=sharing)
+### Code Explanation
 
-<br/><br/>
+This Python code utilizes the pandas, matplotlib, and seaborn libraries to visualize the distribution of average annual growth rates of single-family housing prices across different states from 1995 to 2008. 
+
+* The population data is loaded from an Excel file named 'deevan-1.xlsx' using pandas.
+* The code calculates the average annual growth rate for each state by iterating over the states and extracting the housing price values for the years 1990 to 2008. It computes the growth rate based on the initial and final population values.
+*  The calculated growth rates are stored in a dictionary and then converted into a DataFrame named 'growth_rates_df' containing two columns: 'State' and 'Average Growth Rate'.
+*  Using seaborn's `histplot()` function, the code creates a histogram to visualize the distribution of average growth rates. The `kde` parameter is set to True to display the kernel density estimation along with the histogram bars. The number of bins for the histogram is set to 15 for appropriate granularity.
+*  The plot is labeled with a title, x-axis label ('Growth Rate (%)'), and y-axis label ('Frequency'), and the grid is enabled for better readability.
+*  Finally, the plot is displayed using `plt.show()`.
+
+* Overall, this code provides a clear visualization of the distribution of average growth rates of single-family housing prices across states during the specified time period.
+
+ ### Observations
+
+The provided code calculates the average annual growth rate for each state based on the population data spanning from 1990 to 2008. It then visualizes the distribution of these growth rates using a histogram with a kernel density estimate (KDE) and 15 bins. From the histogram, it can be observed that the majority of states have growth rates centered around a certain value, with some variations across the distribution. The KDE overlay helps to visualize the smooth approximation of the distribution. Overall, this visualization provides insights into the variability and central tendency of single-family housing price growth rates across different states during the specified period.
+
+### Idiom: Histogram / Mark: Bar
+| Data: Attribute        | Data: Attribute Type | Encode: Channel |
+|------------------------|----------------------|-----------------|
+| Growth Rate            | value, Quantitative  | (x-axis)        |
+| Frequency              | value, Quantitative  | (y-axis)        |
+
 
 ### References
 
